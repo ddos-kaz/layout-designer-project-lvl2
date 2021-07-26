@@ -1,0 +1,57 @@
+
+/** Defining Fonts **/
+@font-face {    
+  font-family: 'Neucha';
+  src: url('../fonts/Neucha-Regular.ttf');
+}
+
+/** CSS Variables **/
+:root {
+  --black-color: #08020d;
+  --gray-color: #e0e0e0;
+  --dark-gray-color: #cacaca;
+  --dark-color: #3c3b3d;
+  --green-color: #34c176;
+  --orange-color: #f89202;
+  --purple-color: #5328a1;
+  --red-color: #95390c;
+  --weight-bold: 700;
+  --weight-normal: 400;
+}
+
+/** Main CSS Styles **/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  color: var(--dark-gray-color);
+  font-size: 18px;
+  font-family: Roboto, sans-serif;
+  line-height: 1.5;
+
+  background-color: var(--black-color);
+}
+
+h1,
+.h1 {
+  font-weight: var(--weight-bold);
+  font-size: 60px;
+  line-height: 90px;
+  text-transform: uppercase;
+}
+
+h2,
+.h2 {
+  font-weight: var(--weight-normal);
+  font-size: 38px;
+  line-height: 57px;
+  text-transform: uppercase;
+}
+
+
+p {
+  color: blue;
+}
