@@ -6,17 +6,22 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [
+    "gulp",
+    "scss"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ddos-kaz/layout-designer-project-lvl2.git"
   },
   "author": "ddos-kaz",
-  "license": "ISC",
+  "license": "WTFPL",
   "bugs": {
     "url": "https://github.com/ddos-kaz/layout-designer-project-lvl2/issues"
   },
   "homepage": "https://github.com/ddos-kaz/layout-designer-project-lvl2#readme",
   "devDependencies": {
+    "browser-sync": "^2.27.5",
     "gulp": "^4.0.2",
     "gulp-sass": "^5.0.0",
     "htmlhint": "^0.15.1",
